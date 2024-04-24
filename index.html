@@ -17,9 +17,36 @@
 
 
     <main>
-        <h1 class="mensagem__bemvindo"> Olá! <br>Que bom te ver!</h1>
 
-        <img src="/src/imagens/capivara-cadastrese.png" class="img__capivara" alt="">
+        <div>
+            <h1 class="mensagem__bemvindo"> Olá! <br>Que bom te ver!</h1>
+
+            <img src="/src/imagens/capivara-cadastrese.png" class="img__capivara" alt="">
+        </div>
+       
+
+        <div class="container">
+            <h1 class="container__login">
+                Login
+            </h1>
+            <div class="">
+                <form action="container__form">
+                    <div class="container__input">
+                        <div class="container__area__input">
+                            <input type="text" class="area__input" placeholder="E-mail">
+                            <input type="password" class="area__input" placeholder="Senha">
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" id="remember__me"><label for="remember__me">lembre de mim</label>
+                            <a href="">Não tenho conta!</a>
+                        </div>
+                        <input type="submit" value="Entrar"> 
+                    </div>
+                </form>
+            </div>
+            
+        </div>
     </main>
   
 </body>

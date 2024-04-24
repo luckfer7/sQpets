@@ -11,27 +11,90 @@ body {
     box-sizing: border-box;
 
 }
+
+
 header {
     width: 100vw;
     height: 84px;
+}
+
+.logo {
     margin-top: 19px;
     margin-left: 99px;
 }
 
+main{
+    display: flex;
+    gap: 80px;
+}
+
 .mensagem__bemvindo {
-    width: 583px;
-    height: 150px;
-    margin-top: 50px;
+    width: 243px;
+    height: 90px;
+    margin-top: 90px;
     margin-left: 235px;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 72.67px;
+    font-size: 34px;
+    line-height: 42.67px;
     color: rgba(90, 103, 113, 1);
 }
 
 .img__capivara {
-    width: 442px;
-    height: 430px;
-    margin-top: 90px;
+    width: 380px;
+    height: 380px;
+    margin-top: 31px;
     margin-left: 299px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 381px;
+    height: 541px;
+    padding-top: 35px;
+}
+
+.container__login {
+    width: 85px;
+    height: 90px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42.67px;
+    color: rgba(47, 174, 191, 1);
+    padding: 0px 0px 10px 0px;
+}
+
+.container__form {
+   height: 350px;
+}
+
+.container__input {
+    display: flex;
+    flex-direction: column;
+    width: 381px;
+    height: 350px;
+    padding-top: 100px;
+}
+
+.container__area__input {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.area__input {
+    height: 50px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(47, 174, 191, 1);
+    padding-left: 8px;
+}
+
+input::placeholder {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42.67px;
+    color: rgba(47, 174, 191, 1);
 }
