@@ -25,7 +25,7 @@ header {
 
 main{
     display: flex;
-    gap: 80px;
+    gap: 220px;
 }
 
 .mensagem__bemvindo {
@@ -97,4 +97,65 @@ input::placeholder {
     font-size: 20px;
     line-height: 42.67px;
     color: rgba(47, 174, 191, 1);
+}
+
+.input__enter {
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(47, 174, 191, 1);
+    box-shadow: 0;
+    border: 0 none;
+    outline: 0;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42.67px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container__checkbox {
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    align-items: end;
+    padding-bottom: 25px;
+}
+
+.container__checkbox--remember {
+    display: flex;
+    align-items: center;
+    /* height: 42px;
+    width: 150px; */
+    padding-left: 7px;
+    gap: 7px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]::after {
+    
+}
+
+label {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42.67px;
+    color: rgba(0, 240, 255, 1);
+    cursor: pointer;
+}
+
+a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42.67px;
+    text-decoration: none;
+    color: rgba(243, 113, 45, 1);
 }
