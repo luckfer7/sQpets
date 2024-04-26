@@ -131,17 +131,12 @@ input[type="submit"] {
     width: 150px; */
     padding-left: 7px;
     gap: 7px;
-}
-
-input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type="checkbox"]::after {
     
+}
+
+.quaquer{
+    height: 20px;
+    width: 20px;
 }
 
 label {
