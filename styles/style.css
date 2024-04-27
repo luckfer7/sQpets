@@ -4,11 +4,12 @@
     margin: 0;
     padding: 0;
     font-family: "Zen Maru Gothic", sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     height: 100vh;
-    box-sizing: border-box;
+    
 
 }
 
@@ -153,4 +154,70 @@ a {
     line-height: 42.67px;
     text-decoration: none;
     color: rgba(243, 113, 45, 1);
+}
+
+
+@media screen and (max-width: 460px) {
+   
+    body {
+    width: 100%;
+   }
+
+   
+header {
+    width: 100vw;
+    height: 84px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.logo {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+   main {
+    flex-direction: column;
+    width: 100%;
+    gap: 72px;
+    /* margin: 0 auto; */
+   }
+
+   .main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+/*  
+   .mensagem__bemvindo .img__capivara {
+    width: 5px;
+    height: 5px;
+
+   } */
+
+   .mensagem__bemvindo {
+    width: 21rem;
+    height: 90px;
+    margin-top: 60px;
+    margin-left: 0;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+    .img__capivara {
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+    }
+
+    .container {
+        width: 100%;   
+    }
+
+    .container__input {
+        padding-top: 15px;
+    }
+
+
 }
