@@ -9,8 +9,6 @@
 
 body {
     height: 100vh;
-    
-
 }
 
 
@@ -52,7 +50,7 @@ main{
     flex-direction: column;
     align-items: center;
     width: 381px;
-    height: 541px;
+    height: 581px;
     padding-top: 35px;
 }
 
@@ -74,7 +72,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 381px;
-    height: 350px;
+    height: 490px;
     padding-top: 100px;
 }
 
@@ -100,7 +98,7 @@ input::placeholder {
     color: rgba(47, 174, 191, 1);
 }
 
-.input__enter {
+.container__input__enter {
     height: 50px;
     border-radius: 10px;
     background-color: rgba(47, 174, 191, 1);
@@ -120,22 +118,19 @@ input[type="submit"] {
 .container__checkbox {
     display: flex;
     justify-content: space-between;
-    height: 130px;
+    height: 160px;
     align-items: end;
     padding-bottom: 25px;
 }
 
-.container__checkbox--remember {
+.container__checkbox__remember {
     display: flex;
     align-items: center;
-    /* height: 42px;
-    width: 150px; */
     padding-left: 7px;
     gap: 7px;
-    
 }
 
-.quaquer{
+input[type="checkbox"] {
     height: 20px;
     width: 20px;
 }
@@ -156,6 +151,62 @@ a {
     color: rgba(243, 113, 45, 1);
 }
 
+@media screen and (max-width: 768px) {
+   
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100vw;
+        height: 84px;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    
+    .logo {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    main {
+        flex-direction: column;
+        width: 100%;
+        gap: 72px;
+    }
+
+    .main__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+    
+       .mensagem__bemvindo {
+        width: 21rem;
+        height: 90px;
+        margin-top: 60px;
+        margin-left: 0;
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+    .img__capivara {
+        width: 200px;
+        height: 200px;
+        margin-left: 0;
+    }
+
+    .container {
+        width: 100%;   
+    }
+
+    .container__input {
+        padding-top: 15px;
+    }
+
+}
 
 @media screen and (max-width: 460px) {
    
@@ -180,7 +231,6 @@ header {
     flex-direction: column;
     width: 100%;
     gap: 72px;
-    /* margin: 0 auto; */
    }
 
    .main__container {
@@ -189,12 +239,6 @@ header {
     justify-content: center;
     align-items: center;
    }
-/*  
-   .mensagem__bemvindo .img__capivara {
-    width: 5px;
-    height: 5px;
-
-   } */
 
    .mensagem__bemvindo {
     width: 21rem;
